@@ -8,10 +8,17 @@
 }
 body,
 html {
-    font-family: "Source Sans Pro","Volkhov",sans-serif;
-    font-weight: 400;
-    color: #707070;
     scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Volkhov',sans-serif;
+    color: #060606;
+}
+p {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 300;
+    line-height: 27px;
+    color: #707070;
 }
 a, a:hover {
     text-decoration: none;
@@ -23,7 +30,7 @@ body button, body a, .btn {
 .logo {
     font-size: 2rem;
     font-weight: 400;
-    font-family: "Volkhov",serif;
+    font-family:'Volkhov',serif;
     line-height: 1.75rem;
     color: #fb811e;
     position: relative;
