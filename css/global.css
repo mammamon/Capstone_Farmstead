@@ -1,0 +1,22 @@
+/* GLOBAL */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,
+html {
+    font-family: "Source Sans Pro","Volkhov",sans-serif;
+    font-weight: 400;
+    color: #707070;
+    scroll-behavior: smooth;
+}
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+body button, body a, .btn {
+    transition: all .5s;
+}
