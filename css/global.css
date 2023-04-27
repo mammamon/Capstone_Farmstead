@@ -13,18 +13,31 @@ html {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Volkhov',sans-serif;
     color: #060606;
+    padding: 0;
+    margin: 0;
 }
 p {
     font-family: 'Source Sans Pro',sans-serif;
     font-weight: 300;
     line-height: 27px;
     color: #707070;
+    padding: 0;
+    margin: 0;
 }
 a, a:hover {
     text-decoration: none;
+    color: inherit;
+}
+ul li {
+    list-style: none;
 }
 body button, body a, .btn {
     transition: all .5s;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
 }
 /* LOGO STYLE */
 .logo {
