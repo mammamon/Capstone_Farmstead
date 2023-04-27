@@ -1,0 +1,33 @@
+.breadcrumb__container {
+    background-image: url(../image/breadcrumb-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: block;
+    padding-top: 7.25rem;
+    padding-bottom: 7.25rem;
+}
+
+.breadcrumb {
+    background: none;
+    padding: 0;
+}
+.breadcrumb__container h4, .breadcrumb li>a {
+    font-weight: 700;    
+}
+.breadcrumb li>a:hover {
+    color: #fb811e;
+}
+.breadcrumb li {
+    font-size: 15px;
+    color: #707070;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.breadcrumb-item + .breadcrumb-item::before 
+{
+	content: "\f054\f054";
+    font-family: 'fontawesome';
+    font-size: 7.5px;
+    line-height: 22.5px;
+}
