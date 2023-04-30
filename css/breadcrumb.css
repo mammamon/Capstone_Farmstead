@@ -21,7 +21,6 @@
 .breadcrumb li {
     font-size: 15px;
     color: #707070;
-    font-family: 'Source Sans Pro',sans-serif;
 }
 
 .breadcrumb-item + .breadcrumb-item::before 
