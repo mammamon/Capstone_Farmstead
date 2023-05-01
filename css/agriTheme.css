@@ -1,0 +1,32 @@
+.agriTheme {
+    background-image: url(../image/blog-3\ aka\ agriTheme.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: relative;
+    overflow: hidden;
+}
+.agriTheme::before {
+    content: "";
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: .5;
+    height: 100%;
+}
+.agriTheme h5 {
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+}
+@media (max-width: 576px){
+   .agriTheme .title h3 {
+    font-size: 1.7rem;    
+   } 
+   .agriTheme .title h5 {
+    font-size: 1.125rem;
+   }
+   .agriTheme .title button {
+    font-size: .9rem;
+   }
+}
