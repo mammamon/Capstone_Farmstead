@@ -88,9 +88,24 @@ body a,
     box-shadow: none;
     color: #fff;
     border-radius: 1.875rem;
+    max-height: 3.125rem;
 }
 
 .btn__all:hover {
     background: #009f4d;
     color: #fff;
+}
+/* TITLE STYLE */
+.title h5 {
+font-size: 1.25rem;
+color: #fb811e;
+}
+.title h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+.title p {
+    font-size: 17px;
+    font-weight: 400;
 }
