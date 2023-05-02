@@ -109,3 +109,19 @@ color: #fb811e;
     font-size: 17px;
     font-weight: 400;
 }
+/* BACK-TO-TOP BUTTON */
+#backToTop {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #fff;
+    background: #009f4d;
+    border-radius: .25rem;
+    transition: all .2s;
+    box-shadow: -4px 4px 24px -10px #f55f8d;
+    display: none;
+}
