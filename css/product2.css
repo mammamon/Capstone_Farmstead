@@ -37,3 +37,6 @@
     color: #fff;
     font-weight: 700;
 }
+.product2__item img {
+    max-height: 290px;
+}
