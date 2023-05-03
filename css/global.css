@@ -125,3 +125,12 @@ color: #fb811e;
     box-shadow: -4px 4px 24px -10px #f55f8d;
     display: none;
 }
+@media (max-width:768px)
+{
+    .title h5 {
+        font-size: 1.125rem;
+    }
+    .title h3 {
+        font-size: 2rem;
+    }
+}
