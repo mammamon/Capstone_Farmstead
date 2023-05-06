@@ -25,11 +25,43 @@
     <link rel="stylesheet" href="./css/service.css">
     <link rel="stylesheet" href="./css/quality.css">
     <link rel="stylesheet" href="./css/footer.css">
+
+    <!-- CSS HEADER -->
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- CSS NUMBER -->
+    <link rel="stylesheet" href="./css/number.css">
 </head>
 
 <body>
     <!-- HEADER -->
-    <header></header>
+    <header>
+        <nav class="header__nav navbar fixed-top navbar-light" id="animate__scroll">
+            <a id="logo__a" class="logo header__logo d-flex" href="#">Farmstead<i class="fa fa-leaf"></i></a>
+            <div class="nav__right">
+                <form action="" class="header__search">
+                    <input type="search" class="header__input" placeholder="">
+                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                </form>
+                <i id="moon__icon" class="fa-regular fa-moon"></i>
+                <ul class="navbar-nav navbarNav">
+                    <li class="nav-item navItem dropdown">
+                        <a class="nav-link navLink dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            <i id="fabar__icon" class="fa-solid fa-bars"></i>
+                        </a>
+                        <div class="dropdown-menu list__menu">
+                            <a class="dropdown-item" href="./index.html">HOME</a>
+                            <a class="dropdown-item" href="./about.html">ABOUT</a>
+                            <a class="dropdown-item dropdownItem__active active" href="./services.html">SERVICES</a>
+                            <a class="dropdown-item" href="./blog1.html">BLOG POSTS</a>
+                            <a class="dropdown-item" href="./ladipage.html">LANDING PAGE</a>
+                            <a class="dropdown-item" href="./contact.html">CONTACT</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <!-- BREADCRUMB -->
     <section class="breadcrumb__container container-fluid">
         <div class="container mt-5">
@@ -132,7 +164,30 @@
         </div>
     </section>
     <!-- NUMBER -->
-    <section class="number"></section>
+    <section class="number">
+        <div class="nb__width">
+            <div class="nb__items">
+                <i class="fa-solid fa-bullhorn"></i>
+                <p class="counter">1,286</p>
+                <p>OUR FARMS</p>
+            </div>
+            <div class="nb__items">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <p class="counter">36,076</p>
+                <p>AGRICULTURE PRODUCTS</p>
+            </div>
+            <div class="nb__items">
+                <i class="fa-regular fa-face-smile"></i>
+                <p class="counter">16,300</p>
+                <p>HAPPY CUSTOMERS</p>
+            </div>
+            <div class="nb__items">
+                <i class="fa-solid fa-trophy"></i>
+                <p class="counter">10,630</p>
+                <p>AWARDS WON</p>
+            </div>
+        </div>
+    </section>
     <!-- AGRITHEME -->
     <section class="agriTheme container-fluid">
         <div class="container py-4 py-md-5">
@@ -203,6 +258,28 @@
     </script>
     <!-- BACK-TO-TOP BUTTON DISPLAY -->
     <script src="./js/backtotop.js"></script>
+
+    <!-- js header scroll -->
+    <script>
+        window.onscroll = function () {
+            var logo__white = document.getElementById("logo__a")
+            var moon = document.getElementById("moon__icon");
+            var fabar = document.getElementById("fabar__icon")
+            var header = document.getElementById("animate__scroll");
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+
+                header.style.opacity = 1;
+                header.style.backgroundColor = "white";
+                moon.style.color = "black";
+                fabar.style.color = "black";
+            } else {
+                header.style.opacity = 1;
+                header.style.backgroundColor = "transparent";
+                moon.style.color = "white";
+                fabar.style.color = "white";
+            }
+        };
+    </script>
 </body>
 
 </html>

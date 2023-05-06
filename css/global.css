@@ -63,6 +63,8 @@ body a,
     line-height: 1.75rem;
     color: #fb811e;
     position: relative;
+    margin-top: 10px;
+
 }
 
 .logo:hover {

@@ -1,0 +1,153 @@
+header .navItem .dropdown-toggle::after {
+    border: none;
+}
+
+header .navItem .dropdown-toggle {
+    font-size: 1.5rem;
+}
+
+.header__nav{
+    padding: 0 5%;
+    margin: auto;
+}
+
+.list__menu>a {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* .nav__right {
+    justify-content: flex-end;
+} */
+
+.navbarNav .list__menu {
+    position: absolute;
+    top: 100%;
+    left: -420%;
+    z-index: 2;
+    /* max-height: 600px; */
+    transition: display .5s ease-in;
+}
+
+.navbar-dark .navbarNav .navLink {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-dark .navbarNav .navLink:hover {
+    color: white;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+    background-color: rgb(255, 255, 255);
+    color: #fb811e;
+}
+
+ .dropdown-item:hover {
+    background-color: white;
+    color: #fb811e;
+}
+
+.nav__right>i {
+    font-size: 1.4rem;
+    transform: skew(25deg, -25deg);
+    color: white;
+    margin-right: 28px;
+}
+
+.nav__right>i:hover{
+    color: #fb811e;
+    cursor: pointer;
+}
+
+.header__search {
+    margin-right: 30px;
+}
+
+.header__search {
+    outline-color: white;
+}
+
+.header__input {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border:solid 1px rgb(230, 227, 227);
+    cursor: pointer;
+    background-image: url(../image/zoom_glass.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 15px; */
+}
+
+.header__input:focus {
+    width: 200px;
+    transition: width .7s ease-in-out;
+    cursor: auto;
+    -webkit-appearance: textfield;
+    background-position-x: 5%;
+    padding-left: 30px;
+    caret-color:rgb(0, 0, 0);
+    /* caret-shape: block; */
+}
+
+:focus-visible {
+    outline: 0px;
+}
+
+.header__input:focus + .cursor {
+    z-index: 1;
+}
+
+.navbar-scrolled {
+    background-color: red;
+}
+
+
+.nav__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#animate__scroll {
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .navbar-dark .navbarNav .navLink:hover{
+    color: black;
+}
+
+.navbar-dark .navbarNav .navLink:focus{
+    color: black;
+}
+
+.navbar-light .navbarNav .navLink {
+    color: white;
+}
+
+.banner__btn{
+    margin-top: 20px;
+}
+
+/* ---------------------------RESPONSIVE------------------------ */
+@media (max-width: 767.98px){
+    .header__input:focus{
+        width: 150px;
+    }
+}
+
+@media (max-width: 421.98px){
+    .header__logo{
+        padding-left: 10px;
+    }
+
+    .header__input:focus{
+        width: 80px;
+    }
+
+    .header__nav{
+        padding: 0;
+    }
+}

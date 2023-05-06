@@ -29,17 +29,185 @@
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/map.css">
     <link rel="stylesheet" href="./css/footer.css">
+
+    <!-- CSS HEADER -->
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- CSS BANNER1 -->
+    <link rel="stylesheet" href="./css/banner1.css">
+    <!-- CSS WELCOME -->
+    <link rel="stylesheet" href="./css/welcome.css">
+    <!-- CSS PRODUCT1 -->
+    <link rel="stylesheet" href="./css/product1.css">
+    <!-- CSS TEAM -->
+    <link rel="stylesheet" href="./css/team.css">
 </head>
 
 <body>
     <!-- HEADER -->
-    <header></header>
+    <header>
+        <nav class="header__nav navbar fixed-top navbar-light" id="animate__scroll">
+            <a id="logo__a" class="logo header__logo d-flex" href="#">Farmstead<i class="fa fa-leaf"></i></a>
+            <div class="nav__right">
+                <form action="" class="header__search">
+                    <input type="search" class="header__input" placeholder="">
+                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                </form>
+                <i id="moon__icon" class="fa-regular fa-moon"></i>
+                <ul class="navbar-nav navbarNav">
+                    <li class="nav-item navItem dropdown">
+                        <a class="nav-link navLink dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            <i id="fabar__icon" class="fa-solid fa-bars"></i>
+                        </a>
+                        <div class="dropdown-menu list__menu">
+                            <a class="dropdown-item" href="./index.html">HOME</a>
+                            <a class="dropdown-item" href="./about.html">ABOUT</a>
+                            <a class="dropdown-item" href="./services.html">SERVICES</a>
+                            <a class="dropdown-item" href="./blog1.html">BLOG POSTS</a>
+                            <a class="dropdown-item dropdownItem__active active" href="./ladipage.html">LANDING PAGE</a>
+                            <a class="dropdown-item" href="./contact.html">CONTACT</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <!-- BANNER -->
-    <section class="banner"></section>
+    <section class="banner">
+        <div class="banner__left">
+            <div class="bannerLeft__width">
+                <h1>Welcome to Farmstead
+                    where Natural Food is
+                    born!
+                </h1>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit
+                    <br> voluptatem accusantium doloremque laudantium.
+                </p>
+                <button class="banner__btn btn btn__all">LEARN MORE</button>
+            </div>
+        </div>
+        <!-- data-ride="carousel" -->
+        <div class="banner__right">
+            <div id="banner__carousel" class="carousel carousel__right slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#banner__carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#banner__carousel" data-slide-to="1"></li>
+                    <li data-target="#banner__carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item csit__1 banner__carousel active">
+                        <img src="./image/banner1-1.jpg" class="" alt="...">
+                        <div class="content1">
+                            <span>01</span>
+                            <span>/03</span>
+                            <p>Agriculture</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item csit__2 banner__carousel">
+                        <img src="./image/banner1-2.jpg" class="" alt="...">
+                        <div class="content1">
+                            <span>02</span>
+                            <span>/03</span>
+                            <p>Farm Field</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item csit__3 banner__carousel">
+                        <img src="./image/banner1-3.jpg" class="" alt="...">
+                        <div class="content1">
+                            <span>03</span>
+                            <span>/03</span>
+                            <p>Organic Farm</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                    data-slide="prev">
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                    data-slide="next">
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
     <!-- WELCOME -->
-    <section class="welcome"></section>
+    <section class="welcome">
+        <div class="welcome__width">
+            <div class="welcome__left">
+                <h4>Welcome</h4>
+                <h1>We are agriculture Farm</h1>
+                <p>Tincidunt ultrices nunc vel pellentesque. Class aptent taciti sociosqu ad litora torquent per conubia
+                    nostra. Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+                    tempufddfel id eleifend eros. </p>
+                <p>Aenean volutpat elementum ante, id eleifend eros luctus sit amet. vel tincidunt erat neque non ipsum.
+                    Ut
+                    sollicitudin pharetra enim.</p>
+                <button class="welcome__button btn btn__all">LEARN MORE</button>
+            </div>
+            <div class="welcome__right">
+                <img src="./image/welcome.jpg" alt="">
+            </div>
+        </div>
+    </section>
     <!-- PRODUCT1 -->
-    <section class="product1"></section>
+    <section class="product1">
+        <div class="pr1__width">
+            <div class="pr1__top">
+                <div class="pr1top__left">
+                    <h4>What we do</h4>
+                    <h1>Why Choose Our Fresh Organic Foods
+                    </h1>
+                </div>
+                <div class="pr1top__right">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium
+                        doloremque, eaque ipsa quae ab illo inventore.Sed ut perspiciatis
+                        unde omnis iste natus error sit.
+                    </p>
+                </div>
+            </div>
+            <div class="pr1__bottom">
+                <div class="card pr1__card pr1__item1 p-0">
+                    <img src="./image/product1-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card__logo">
+                            <span>Natural</span>
+                        </div>
+                        <h4>Agriculture Products</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card pr1__card pr1__item2 p-0">
+                    <img src="./image/product1-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card__logo">
+                            <span>Agriculture</span>
+                        </div>
+                        <h4>Fresh Vegetables</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="card pr1__card pr1__item3 p-0">
+                    <img src="./image/product1-3.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <div class="card__logo">
+                            <span>Farm</span>
+                        </div>
+                        <h4>Organic Products</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- QUALITY -->
     <section class="quality py-5">
         <div class="container py-4 py-md-5">
@@ -282,7 +450,87 @@
         </div>
     </section>
     <!-- TEAM -->
-    <section class="team"></section>
+    <section class="team">
+        <div class="team__width">
+            <div class="team__top">
+                <div class="teamtop__left">
+                    <h4>Our Team</h4>
+                    <h1>Experienced and
+                        Professional Team
+                    </h1>
+                </div>
+                <div class="teamtop__right">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium
+                        doloremque, eaque ipsa quae ab illo inventore.Sed ut perspiciatis
+                        unde omnis iste natus error sit.
+                    </p>
+                </div>
+            </div>
+            <div class="team__bottom">
+                <div class="card bottom__card team__card1 p-3">
+                    <div class="team__img">
+                        <img src="./image/team-1.jpg" class="card-img-top" alt="...">
+                        <div class="team__overlay">
+                            <div class="overlay__top">
+                                <p>Meet Me</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                            <div class="overlay__bottom">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body cardBody">
+                        <h4>Shona Leer</h4>
+                        <p class="card-text">FOOD PRODUCTION</p>
+                    </div>
+                </div>
+                <div class="card bottom__card team__card2 p-3">
+                    <div class="team__img">
+                        <img src="./image/team-2.jpg" class="card-img-top" alt="...">
+                        <div class="team__overlay">
+                            <div class="overlay__top">
+                                <p>Meet Me</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                            <div class="overlay__bottom">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body cardBody">
+                        <h4>Fresh Vegetables</h4>
+                        <p class="card-text">FARMER</p>
+                    </div>
+                </div>
+                <div class="card bottom__card team__card3 p-3">
+                    <div class="team__img">
+                        <img src="./image/team-3.jpg" class="card-img-top " alt="...">
+                        <div class="team__overlay">
+                            <div class="overlay__top">
+                                <p>Meet Me</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                            <div class="overlay__bottom">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body cardBody">
+                        <h4>Organic Products</h4>
+                        <p class="card-text">HARVESTER</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- CONTACT -->
     <section class="contact py-5">
         <div class="container py-md-5 py-4">
@@ -404,6 +652,28 @@
     <script src="./js/fancybox.umd.js"></script>
     <!-- BACK-TO-TOP BUTTON DISPLAY -->
     <script src="./js/backtotop.js"></script>
+
+    <!-- js header scroll -->
+    <script>
+        window.onscroll = function () {
+            var logo__white = document.getElementById("logo__a")
+            var moon = document.getElementById("moon__icon");
+            var fabar = document.getElementById("fabar__icon")
+            var header = document.getElementById("animate__scroll");
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+
+                header.style.opacity = 1;
+                header.style.backgroundColor = "white";
+                moon.style.color = "black";
+                fabar.style.color = "black";
+            } else {
+                header.style.opacity = 1;
+                header.style.backgroundColor = "transparent";
+                moon.style.color = "white";
+                fabar.style.color = "white";
+            }
+        };
+    </script>
 </body>
 
 </html>

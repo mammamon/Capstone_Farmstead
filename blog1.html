@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Blog Posts</title>
     <!-- IMPORT CSS -->
     <!-- BOOTSTRAP v4.6.2 -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -21,11 +21,12 @@
     <link rel="stylesheet" href="./css/global.css">
     <!-- CSS SECTIONS -->
     <link rel="stylesheet" href="./css/breadcrumb.css">
-    <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
 
     <!-- CSS HEADER -->
     <link rel="stylesheet" href="./css/header.css">
+    <!-- CSS BLOG1  -->
+    <link rel="stylesheet" href="./css/blog1.css">
 </head>
 
 <body>
@@ -49,9 +50,9 @@
                             <a class="dropdown-item" href="./index.html">HOME</a>
                             <a class="dropdown-item" href="./about.html">ABOUT</a>
                             <a class="dropdown-item" href="./services.html">SERVICES</a>
-                            <a class="dropdown-item" href="./blog1.html">BLOG POSTS</a>
+                            <a class="dropdown-item dropdownItem__active active" href="./blog1.html">BLOG POSTS</a>
                             <a class="dropdown-item" href="./ladipage.html">LANDING PAGE</a>
-                            <a class="dropdown-item dropdownItem__active active" href="./contact.html">CONTACT</a>
+                            <a class="dropdown-item" href="./contact.html">CONTACT</a>
                         </div>
                     </li>
                 </ul>
@@ -60,83 +61,101 @@
     </header>
     <!-- BREADCRUMB -->
     <section class="breadcrumb__container container-fluid">
-        <div class="container">
-            <h4>Contact us</h4>
+        <div class="container mt-5">
+            <h4>Blog Posts</h4>
             <ol class="breadcrumb mt-2">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Contact Page</li>
+                <li class="breadcrumb-item active" aria-current="page">Blog posts</li>
             </ol>
         </div>
     </section>
-    <!-- CONTACT -->
-    <section class="contact py-5">
-        <div class="container py-md-5 py-4">
-            <div class="mx-auto pt-lg-4 pt-md-5 pt-4" style="max-width: 1000px;">
-                <div class="row contact__form">
-                    <div class="col-md-5">
-                        <h5>Get in touch</h5>
-                        <h3 class="mb-4">Contact Us</h3>
-                        <div class="contact__info">
-                            <div class="d-flex">
-                                <div class="contact__icon text-center mr-3">
-                                    <span class="fa fa-globe"></span>
-                                </div>
-                                <div class="contact__details">
-                                    <h6>Company Address</h6>
-                                    <p>10001, 5th Avenue, 12202 street, USA.</p>
-                                </div>
-                            </div>
-                            <div class="d-flex mt-4 pt-lg-2">
-                                <div class="contact__icon text-center mr-3">
-                                    <span class="fa fa-phone"></span>
-                                </div>
-                                <div class="contact__details">
-                                    <h6>Call Us</h6>
-                                    <p><a href="tel:+1(21) 234 4567">+1(21) 234 4567</a></p>
-                                </div>
-                            </div>
-                            <div class="d-flex mt-4 pt-lg-2">
-                                <div class="contact__icon text-center mr-3">
-                                    <span class="fa fa-envelope-open"></span>
-                                </div>
-                                <div class="contact__details">
-                                    <h6>Email Us</h6>
-                                    <p><a href="mailto:example@mail.com" class="mail">example@mail.com</a></p>
-                                </div>
-                            </div>
-                            <div class="d-flex mt-4 pt-lg-2">
-                                <div class="contact__icon text-center mr-3">
-                                    <span class="fa fa-headphones"></span>
-                                </div>
-                                <div class="contact__details">
-                                    <h6>Customer Support</h6>
-                                    <p><a href="mailto:info@support.com" class="mail">info@support.com</a></p>
-                                </div>
-                            </div>
+    <!-- BLOG -->
+    <section class="blog">
+        <div class="blog__width">
+            <div class="row blog__row gutters">
+                <div class="blog__left col-xl-9 col-lg-8">
+                    <div class="card blog__card p-3">
+                        <img src="./image/blog-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">March 24, 2021 <span> - by W3Layouts</span></h5>
+                            <p class="card-text">Hello world!</p>
+                            <button class="btn btn__all">READ MORE</button>
                         </div>
                     </div>
-                    <div class="col-md-7 mt-md-0 mt-4">
-                        <form>
-                            <input type="text" placeholder="Your Name*">
-                            <input type="email" placeholder="Your Email*">
-                            <input type="text" placeholder="Subject*">
-                            <input type="text" placeholder="Website URL*">
-                            <textarea placeholder="Type your message here*"></textarea>
-                            <button class="btn btn__all">Send Message</button>
-                        </form>
+                    <div class="card blog__card p-3">
+                        <img src="./image/blog-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">March 24, 2021 <span>- by W3Layouts</span> </h5>
+                            <p class="card-text">Sed ut perspiciatis unde omnis iste natus
+                                content.</p>
+                            <button class="btn btn__all">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="card blog__card p-3">
+                        <img src="./image/blog-3 aka agriTheme.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">March 24, 2021 <span>- by W3Layouts</span> </h5>
+                            <p class="card-text">Sed ut perspiciatis unde omnis iste natus
+                                content.</p>
+                            <button class="btn btn__all">READ MORE</button>
+                        </div>
+                    </div>
+                    <div class="card blog__card p-3">
+                        <img src="./image/blog-4 aka quotation-bg.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">March 24, 2021 <span>- by W3Layouts</span> </h5>
+                            <p class="card-text">Sed ut perspiciatis unde omnis iste natus
+                                content.</p>
+                            <button class="btn btn__all">READ MORE</button>
+                        </div>
+                    </div>
+                    <div class="page">
+                        <ul class="">
+                            <li class="page1"><a class="a1" href="#">1</a></li>
+                            <li class="page1"><a class="a2" href="./blog2.html">2</a></li>
+                            <li class="page1"><a class="a3" href="./blog2.html">Next</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog__right col-xl-3 col-lg-4">
+                    <div class="blog__form">
+                        <input type="search" class="search-field blog__search" placeholder="Search ...">
+                        <input type="submit" class="search-submit blog__submit" value="Search">
+                    </div>
+                    <div class="blog__content">
+                        <div class="rc__posts">
+                            <h4>Recent Posts</h4>
+                            <p>Hello World!</p>
+                            <p>Sed Ut Perspiciatis Unde Omnis Iste Natus</p>
+                            <p>Nemo Enim Ipsam Quia Sit Aspernatur Aut Odit</p>
+                            <p>Ut Enim Ad Minima, Quis Nostrum Eationem</p>
+                            <p>At Eos Et Accusamus Et Iusto Odio Ssimos Duci</p>
+                        </div>
+                        <div class="rc__cmts">
+                            <h4>Recent Comments</h4>
+                            <p>A WordPress Commenter on Hello world!</p>
+                            <p>W3Layouts on At eos et accusamus et iusto odio ssimos duci</p>
+                            <p>A WordPress Commenter on Hello world!</p>
+                        </div>
+                        <div class="archives">
+                            <h4>Archives</h4>
+                            <p>March 2021</p>
+                        </div>
+                        <div class="catagories">
+                            <h4>Categories</h4>
+                            <p>Agriculture</p>
+                            <p>Farming</p>
+                        </div>
+                        <div class="meta">
+                            <h4>Meta</h4>
+                            <p>Log In</p>
+                            <p>Entries Feed</p>
+                            <p>Comments Feed</p>
+                            <p>WordPress.Org</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- MAP -->
-    <section class="map">
-        <div class="container-fluid px-0">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.690573276874!2d106.66540617510107!3d10.836831089315625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175298b60854c11%3A0x24cf300127cfe2d0!2sNapoli%20Coffee!5e1!3m2!1svi!2s!4v1682647991075!5m2!1svi!2s"
-                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
     </section>
     <!-- FOOTER -->
     <footer>
@@ -187,7 +206,6 @@
     <script src="./js/jquery.waypoints.min.js"></script>
     <!-- BACK-TO-TOP BUTTON DISPLAY -->
     <script src="./js/backtotop.js"></script>
-
     <!-- js header scroll -->
     <script>
         window.onscroll = function () {

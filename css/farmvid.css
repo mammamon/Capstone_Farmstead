@@ -1,0 +1,95 @@
+.farmVid__width{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* --------------TOP------------ */
+.farmVid__top{
+    margin-bottom: 20px;
+}
+
+.farmVid__top h1{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.farmVid__top p{
+    font-weight: 400;
+}
+
+/* --------------BOTTOM------------ */
+
+.farmVideo img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.farm__vid{
+    position: relative;
+}
+
+.farmVideo i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    color: orange;
+    font-size: 16px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    transition: all .4s ease-in-out;
+}
+
+.farmVideo i:hover{
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+}
+
+#player{
+    border-radius: 10px;
+}
+
+/* ---------------------------------RESPONSIVE----------------------------------- */
+@media (max-width:991.98px) {
+    .farmVideo h1{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .farmVideo p{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .farmVid__width{
+        width: 70%;
+    }
+
+    .farmVideo h1{
+        font-size: 32px;
+    }
+}
+
+@media (max-width:575.98px) {
+    .farmVid__width{
+        width: 90%;
+    }
+}
+
+@media (max-width:553.98px){
+    .farmVideo h1{
+        font-size: 30px;
+    }
+}

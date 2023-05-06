@@ -27,17 +27,197 @@
     <link rel="stylesheet" href="./css/product2.css">
     <link rel="stylesheet" href="./css/quotation.css">
     <link rel="stylesheet" href="./css/footer.css">
+
+    <!-- CSS HEADER -->
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- CSS BANNER1 -->
+    <link rel="stylesheet" href="./css/banner1.css">
+    <!-- CSS FEARTURE1 -->
+    <link rel="stylesheet" href="./css/fearture1.css">
+    <!-- CSS PRODUCT1 -->
+    <link rel="stylesheet" href="./css/product1.css">
 </head>
 
 <body>
     <!-- HEADER -->
-    <header></header>
+    <header>
+        <nav class="header__nav navbar fixed-top navbar-light" id="animate__scroll">
+            <a id="logo__a" class="logo header__logo d-flex" href="#">Farmstead<i class="fa fa-leaf"></i></a>
+            <div class="nav__right">
+                <form action="" class="header__search">
+                    <input type="search" class="header__input" placeholder="">
+                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                </form>
+                <i id="moon__icon" class="fa-regular fa-moon"></i>
+                <ul class="navbar-nav navbarNav">
+                    <li class="nav-item navItem dropdown">
+                        <a class="nav-link navLink dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            <i id="fabar__icon" class="fa-solid fa-bars"></i>
+                        </a>
+                        <div class="dropdown-menu list__menu">
+                            <a class="dropdown-item dropdownItem__active active" href="#">HOME</a>
+                            <a class="dropdown-item" href="./about.html">ABOUT</a>
+                            <a class="dropdown-item" href="./services.html">SERVICES</a>
+                            <a class="dropdown-item" href="./blog1.html">BLOG POSTS</a>
+                            <a class="dropdown-item" href="./ladipage.html">LANDING PAGE</a>
+                            <a class="dropdown-item" href="./contact.html">CONTACT</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <!-- BANNER -->
-    <section class="banner"></section>
+    <section class="banner">
+        <div class="banner__left">
+            <div class="bannerLeft__width">
+                <h1>Welcome to Farmstead
+                    where Natural Food is
+                    born!
+                </h1>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit
+                    <br> voluptatem accusantium doloremque laudantium.
+                </p>
+                <button class="banner__btn btn btn__all">LEARN MORE</button>
+            </div>
+        </div>
+        <!-- data-ride="carousel" -->
+        <div class="banner__right">
+            <div id="banner__carousel" class="carousel carousel__right slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#banner__carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#banner__carousel" data-slide-to="1"></li>
+                    <li data-target="#banner__carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item csit__1 banner__carousel active">
+                        <img src="./image/banner1-1.jpg" class="" alt="...">
+                        <div class="content1">
+                            <span>01</span>
+                            <span>/03</span>
+                            <p>Agriculture</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item csit__2 banner__carousel">
+                        <img src="./image/banner1-2.jpg" class="" alt="...">
+                        <div class="content1">
+                            <span>02</span>
+                            <span>/03</span>
+                            <p>Farm Field</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item csit__3 banner__carousel">
+                        <img src="./image/banner1-3.jpg" class="" alt="...">
+                        <div class="content1">
+                            <span>03</span>
+                            <span>/03</span>
+                            <p>Organic Farm</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                    data-slide="prev">
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                    data-slide="next">
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
     <!-- FEATURE1 -->
-    <section class="feature1"></section>
+    <section class="feature1 ">
+        <div class="ft1__width">
+            <div class="ft1__left">
+                <h4>Grow Naturally</h3>
+                    <h1>Leaders in the field</h1>
+                    <p>Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
+                        lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo
+                        risus. Nullam sit amet laoreet elit. Suspendisse non init magnaa velit
+                        efficitur, dolor eget ex fermentum.
+                    </p>
+                    <button class="ft1__btn  btn btn__all">DISCOVER MORE</button>
+            </div>
+            <div class="ft1__right">
+                <div class="ft1right__it1 item">
+                    <img src="./image/feature1-1.png" alt="">
+                    <p>Natural Products</p>
+                </div>
+                <div class="ft1right__it2 item">
+                    <img src="./image/feature1-2.png" alt="">
+                    <p>Wheat Cultivation</p>
+                </div>
+                <div class="ft1right__it3 item">
+                    <img src="./image/feature1-3.png" alt="">
+                    <p>Modern Truck</p>
+                </div>
+                <div class="ft1right__it4 item">
+                    <img src="./image/feature1-4.png" alt="">
+                    <p>Organic Products</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- PRODUCT1 -->
-    <section class="product1"></section>
+    <section class="product1">
+        <div class="pr1__width">
+            <div class="pr1__top">
+                <div class="pr1top__left">
+                    <h4>What we do</h4>
+                    <h1>Why Choose Our Fresh Organic Foods
+                    </h1>
+                </div>
+                <div class="pr1top__right">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium
+                        doloremque, eaque ipsa quae ab illo inventore.Sed ut perspiciatis
+                        unde omnis iste natus error sit.
+                    </p>
+                </div>
+            </div>
+            <div class="pr1__bottom">
+                <div class="card pr1__card pr1__item1 p-0">
+                    <img src="./image/product1-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card__logo">
+                            <span>Natural</span>
+                        </div>
+                        <h4>Agriculture Products</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card pr1__card pr1__item2 p-0">
+                    <img src="./image/product1-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card__logo">
+                            <span>Agriculture</span>
+                        </div>
+                        <h4>Fresh Vegetables</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="card pr1__card pr1__item3 p-0">
+                    <img src="./image/product1-3.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <div class="card__logo">
+                            <span>Farm</span>
+                        </div>
+                        <h4>Organic Products</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- QUALITY -->
     <section class="quality py-5">
         <div class="container py-4 py-md-5">
@@ -330,6 +510,27 @@
     <script src="./js/fancybox.umd.js"></script>
     <!-- BACK-TO-TOP BUTTON DISPLAY -->
     <script src="./js/backtotop.js"></script>
-</body>
+
+    <!-- js header scroll -->
+    <script>
+        window.onscroll = function () {
+            var logo__white = document.getElementById("logo__a")
+            var moon = document.getElementById("moon__icon");
+            var fabar = document.getElementById("fabar__icon")
+            var header = document.getElementById("animate__scroll");
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+
+                header.style.opacity = 1;
+                header.style.backgroundColor = "white";
+                moon.style.color = "black";
+                fabar.style.color = "black";
+            } else {
+                header.style.opacity = 1;
+                header.style.backgroundColor = "transparent";
+                moon.style.color = "white";
+                fabar.style.color = "white";
+            }
+        };
+    </script>
 
 </html>
