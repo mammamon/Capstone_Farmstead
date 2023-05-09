@@ -1,0 +1,13 @@
+Bài tập Capstone Nhóm 5 - Farmstead 
+Họ và tên thành viên:   1/ Nguyễn Hữu Nhật Quang
+                        2/ Nguyễn Quang Nam
+Các phần đã làm: (nhóm thực hiện phân chia công việc theo section, không chia theo page để làm)
+1/ Nguyễn Hữu Nhật Quang: footer, quotation, fearture2, product2, quality, breadcrumb, service,agriTheme,contact, map, back-to-top
+2/ Nguyễn Quang Nam: header, banner1, fearture1, product1, welcome, number, team, farmVideo, blog
+
+=> Hợp các section sẽ ra được 6 page:   1/ index.html 
+                                        2/ about.html   
+                                        3/ services.html    
+                                        4/ blog.html    
+                                        5/ landipage.html   
+                                        6/ contact.html
